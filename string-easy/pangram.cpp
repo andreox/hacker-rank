@@ -10,32 +10,14 @@ int main() {
 	string s ;
 	locale loc ;
 	set<char> alphabet ;
-	alphabet.insert('a') ;
-	alphabet.insert('b') ;
-	alphabet.insert('c') ;
-	alphabet.insert('d') ;
-	alphabet.insert('e') ;
-	alphabet.insert('f') ;
-	alphabet.insert('g') ;
-	alphabet.insert('h') ;
-	alphabet.insert('i') ;
-	alphabet.insert('j') ;
-	alphabet.insert('k') ;
-	alphabet.insert('l') ;
-	alphabet.insert('m') ;
-	alphabet.insert('n') ;
-	alphabet.insert('o') ;
-	alphabet.insert('p');
-	alphabet.insert('q') ;
-	alphabet.insert('r') ;
-	alphabet.insert('s') ;
-	alphabet.insert('t') ;
-	alphabet.insert('u') ;
-	alphabet.insert('v') ;
-	alphabet.insert('w') ;
-	alphabet.insert('x') ;
-	alphabet.insert('y') ;
-	alphabet.insert('z') ;
+	char c = 'a' ;
+	
+	for ( int i = 0 ; i < 26 ; i++ ) {
+		
+		alphabet.insert(c) ;
+		c += 1 ;
+		
+	}
 	
 	getline( cin , s ) ;
 	for ( int i = 0 ; i < s.length() ; i++ ) {

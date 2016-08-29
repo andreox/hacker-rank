@@ -21,7 +21,7 @@ int main( int argc , char** argv ) {
 		( X + Z < Y ) ? white_price = X+Z : white_price = Y ;
 		( Y + Z < X ) ? black_price = Y+Z : black_price = X ;
 		
-		int t_price = (black_price*B) + ( white_price*W ) ;
+		unsigned long int t_price = (black_price*B) + ( white_price*W ) ;
 		
 		cout << t_price << endl ;
 		

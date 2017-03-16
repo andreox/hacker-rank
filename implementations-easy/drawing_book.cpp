@@ -21,7 +21,7 @@ int main( int argc , char** argv ) {
 		int k ;
 		for ( int i = 0 ; i < left.size() ; i++ ) if ( left[i] == p ) k = i ;
 
-		if ( k > ( left.size() / 2 ) ) cout << left.size()-1-k << endl ;
+		if ( k >= ( left.size() / 2 ) ) cout << left.size()-1-k << endl ;
 		else cout << k << endl ;
 
 	}
@@ -31,7 +31,7 @@ int main( int argc , char** argv ) {
 		int k ;
 		for ( int i = 0 ; i < right.size() ; i++ ) if ( right[i] == p ) k = i ;
 
-		if ( k > ( right.size() / 2 ) ) cout << right.size()-1-k << endl ;
+		if ( k >= ( right.size() / 2 ) ) cout << right.size()-1-k << endl ;
 		else cout << k << endl ;
 		
 	}

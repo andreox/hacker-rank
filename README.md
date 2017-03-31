@@ -1,2 +1,2 @@
 # hacker-rank
-hacker rank's problems solution
+HR Algorithms , Data Structures and Mathematics problems solution
